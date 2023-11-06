@@ -1,3 +1,36 @@
+## Cloning the Frontend Repository
+
+To work with the frontend of this project, you can clone the repository from GitHub. Follow these steps:
+
+1. Open your terminal or command prompt.
+
+2. Navigate to the directory where you want to clone the repository.
+
+3. Run the following command to clone the frontend repository:
+
+   ```bash
+   git clone https://github.com/akash-mn/videoCompressorFrontend.git
+   ```
+
+1.Change your working directory to the cloned repository:
+    `cd videoCompressorFrontend`
+
+   Now you have successfully cloned the frontend repository, and you can work
+   with it independently. Be sure to follow the frontend project's README for
+   specific setup and usage instructions.
+
+## Adding Environment Variables
+
+To customize your React application, you can add an `.env.local` file in your project's root directory and define environment variables. For example, to set the base URL for your backend, follow these steps:
+
+1. Create a file named `.env.local` in your project's root directory.
+
+2. Open `.env.local` and add the following environment variable:
+
+   ```plaintext
+   REACT_APP_BASE_URL=http://localhost:5000
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
